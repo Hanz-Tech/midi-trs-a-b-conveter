@@ -1,0 +1,36 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.2)*
+G04 #@! TF.CreationDate,2022-09-05T01:34:10-04:00*
+G04 #@! TF.ProjectId,midi-trs-a-b-conveter,6d696469-2d74-4727-932d-612d622d636f,rev?*
+G04 #@! TF.SameCoordinates,PX7c5bf00PY5fb3830*
+G04 #@! TF.FileFunction,Soldermask,Bot*
+G04 #@! TF.FilePolarity,Negative*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.2)) date 2022-09-05 01:34:10*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,1.300000*%
+%ADD11C,1.800000*%
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.C,U1*
+X25550000Y6550000D03*
+X19550000Y6550000D03*
+G04 #@! TD*
+G04 #@! TO.C,U2*
+X3450000Y6430000D03*
+X9450000Y6430000D03*
+G04 #@! TD*
+D11*
+G04 #@! TO.C,*
+X6950000Y1900000D03*
+G04 #@! TD*
+G04 #@! TO.C,*
+X26450000Y1900000D03*
+G04 #@! TD*
+G04 #@! TO.C,REF\u002A\u002A*
+X2550000Y11000000D03*
+G04 #@! TD*
+M02*

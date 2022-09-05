@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\han\Documents\github\midi-trs-a-b-conveter\midi-trs-a-b-conveter\midi-trs-a-b-conveter.kicad_sch</source>
+    <date>9/5/2022 12:44:02 AM</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>midi-trs-a-b-conveter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>3.5mm_C18594</value>
+      <footprint>jacks:C18594</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/boomele_boom_Precision_elec-C18594/C18594</datasheet>
+      <fields>
+        <field name="LCSC">C18594</field>
+      </fields>
+      <libsource lib="jacks" part="3.5mm_C18594" description=""/>
+      <property name="LCSC" value="C18594"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-trs-a-b-conveter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6489fc87-4b98-436e-872b-28a8f62ca281</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>3.5mm_C18594</value>
+      <footprint>jacks:C18594</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/boomele_boom_Precision_elec-C18594/C18594</datasheet>
+      <fields>
+        <field name="LCSC">C18594</field>
+      </fields>
+      <libsource lib="jacks" part="3.5mm_C18594" description=""/>
+      <property name="LCSC" value="C18594"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-trs-a-b-conveter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6aca98c2-3b25-404d-b66a-f04b9f562bab</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="jacks" part="3.5mm_C18594">
+      <docs>https://jlcpcb.com/partdetail/boomele_boom_Precision_elec-C18594/C18594</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">3.5mm_C18594</field>
+        <field name="Footprint">jacks:C18594</field>
+        <field name="Datasheet">https://jlcpcb.com/partdetail/boomele_boom_Precision_elec-C18594/C18594</field>
+        <field name="LCSC">C18594</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="" type="output"/>
+        <pin num="3" name="" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="jacks">
+      <uri>C:\Users\han\Documents\KiCad_Libraries\jacks.pretty\jacks.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U1" pin="1" pintype="output"/>
+      <node ref="U2" pin="1" pintype="output"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2" pintype="output"/>
+      <node ref="U2" pin="3" pintype="output"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3" pintype="output"/>
+      <node ref="U2" pin="2" pintype="output"/>
+    </net>
+  </nets>
+</export>
